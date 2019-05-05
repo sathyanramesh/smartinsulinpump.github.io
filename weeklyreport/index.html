@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Weekly Progress - Smart Insulin Pump</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Smart Insulin Pump</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../about/">About</a>
+                            </li>
+                            <li >
+                                <a href="../mupbrief/">MUP-Brief</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Weekly Progress</a>
+                            </li>
+                            <li >
+                                <a href="../mom/">Minutes of Meeting</a>
+                            </li>
+                            <li >
+                                <a href="../exploration/">Exploration</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../mupbrief/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../mom/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#weekly-progress-report">Weekly Progress Report</a></li>
+            <li><a href="#insulin-pump-week-12-till-09042019">Insulin Pump Week-12 (till 09/04/2019)</a></li>
+            <li><a href="#insulin-pump-week-11-till-01042019">Insulin Pump Week-11 (till 01/04/2019)</a></li>
+            <li><a href="#insulin-pump-week-10-till-23032019">Insulin Pump Week-10 (till 23/03/2019)</a></li>
+            <li><a href="#insulin-pump-week-9-till-16032019">Insulin Pump Week-9 (till 16/03/2019)</a></li>
+            <li><a href="#insulin-pump-week-8-till-9032019">Insulin Pump Week-8 (till 9/03/2019)</a></li>
+            <li><a href="#insulin-pump-week-7-till-01032019">Insulin Pump Week-7 (till 01/03/2019)</a></li>
+            <li><a href="#insulin-pump-week-7-till-22022019">Insulin Pump Week-7 (till 22/02/2019)</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="weekly-progress-report">Weekly Progress Report</h1>
+<h2 id="insulin-pump-week-12-till-09042019">Insulin Pump Week-12 (till 09/04/2019)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Task Completed/Progress Item</th>
+<th>Status/Progress Indicator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Run time hardware input buttons added to navigate  the menu page and for Increment and decrement of values,  independent of serial monitor making it standalone.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Another hardware input is added to revoke from data entry to insulin supply. Two hardware interrupts is added , one to revoke from data entry and other  to enter the bolus function and it is also configured as confirm button  in many cases.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>RTC - DS321 is added to log the time and date. Reservoir alert is integrated into the main code.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>SD Card module - Catalex is tested - has some initialization errors.  Still in development yet to be incorporated. It is to store the log  files offline.</td>
+<td>Backlog</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Finished the Background alterations and optimized the code.Errors in  the arduino code were rectified and Input Improvements were made.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Listing out the functionalities that should be available Completed BoM</td>
+<td>Completed</td>
+</tr>
+</tbody>
+</table>
+<h4 id="upcoming-tasks">Upcoming Tasks:</h4>
+<p>The upcoming key activities/tasks planned for the week. Include Date of Completion and Responsibility in square brackets :</p>
+<ul>
+<li>Ordering the Bill of Materials</li>
+<li>List out all the app functionalities and initialize second stage working</li>
+<li>Integrate the Catalex SD card module for storage of data</li>
+</ul>
+<h4 id="risks">Risks:</h4>
+<p>The risks/roadblocks to complete milestones :</p>
+<ul>
+<li>Integrating a SD card along with the timelines and data together</li>
+<li>Components should be ordered quickly for MUP testing, as they will take a long time to be delivered</li>
+</ul>
+<h4 id="key-decisions">Key Decisions:</h4>
+<ul>
+<li>Send the BoM to Mothilal Sir, for approval and get approval for purchase</li>
+</ul>
+<h2 id="insulin-pump-week-11-till-01042019">Insulin Pump Week-11 (till 01/04/2019)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Task Completed/Progress Item</th>
+<th>Status/Progress Indicator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Added LCD interface for Display alone , still uses serial monitor for  input and interaction. Added LCD interface and Added Run-Time Bolus Input.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Bolus interrupt Solved - External hardware interrupt for bolus is added</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Started working on Nextion Software and Created UI and simulated for  the display.</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Completed the Login DataBase and Application integration for the  Doctor's Activity Section. Updated the Data Flow based on the Clients requirements, and  finalize the data flow.(integrating Bluetooth)</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Stepper motor precision improved, Basal Bolus Conflict Error Rectification.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Reservoir empty alert Tested - It rely on the software, basically a blind build,  and not practically tested. Encoder should be used for accuracy. Buzzer is  integrated to intimate the user.</td>
+<td>Backlog</td>
+</tr>
+</tbody>
+</table>
+<h4 id="upcoming-tasks_1">Upcoming Tasks:</h4>
+<ul>
+<li>iTools Complete iteration and verification</li>
+<li>Work on more Nextion display software iteration</li>
+</ul>
+<h4 id="risks_1">Risks:</h4>
+<ul>
+<li>Reservoir empty alert testing, i.e. interfacing with actual reservoir</li>
+</ul>
+<h4 id="key-decisions_1">Key Decisions:</h4>
+<ul>
+<li>Using the Nextion 3.2 display for the Insulin Pump</li>
+</ul>
+<h2 id="insulin-pump-week-10-till-23032019">Insulin Pump Week-10 (till 23/03/2019)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Task Completed/Progress Item</th>
+<th>Status/Progress Indicator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Created basic arduino sketch for basal and bolus inputs.  Code is made such a way to Dynamically adjust speeds based  on the input dose.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>No HMI is included. Interaction is made only through serial  monitor and also no provision to shift from basal to bolus  is added.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Creating a firebase database and integrate the Sign-up Page  in Doctors Activity.</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Updating the wireframe which had some glitches.</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Had a discussion with Portscape's Sales Manager to figure  out the most suitable motor for the insulin pump.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Create a 3D-model of the reservoir in CAD.</td>
+<td>In Process</td>
+</tr>
+</tbody>
+</table>
+<h4 id="upcoming-tasks_2">Upcoming Tasks:</h4>
+<ul>
+<li>CAD model of reservoir and motor to be done</li>
+<li>To fix the motor told upon by Sijo Thomas(portescap)</li>
+</ul>
+<h4 id="risks_2">Risks:</h4>
+<ul>
+<li>Interfacing the arduino codes with the upcoming motor from portescap</li>
+<li>Check the reservoir 3D printing scalability</li>
+<li>Developing app without glitches for user compatibility</li>
+</ul>
+<h4 id="key-decisions_2">Key Decisions:</h4>
+<ul>
+<li>Using Firebase as cloud database for storing data from application</li>
+</ul>
+<h2 id="insulin-pump-week-9-till-16032019">Insulin Pump Week-9 (till 16/03/2019)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Task Completed/Progress Item</th>
+<th>Status/Progress Indicator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Started working on POC using available components  ( Stepper motor - 28BJY-48 5VDC, Driver - A4988,  Arduino UNO, Regulated DC power supply)</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Created simple circuit and Arduino sketch to control  the stepper motor.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Calculated total pulse required for single revolution  and splitted it according to the need</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Completed the Login Activity for the app after a suitable  database is selected.</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Analysed the regulations in the Cloud Database selection  and found a suitable solution.</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Made changes to the wordings of the problem statement.  (changed to the delivery mechanism) Creating separate PVCD for patients, Doctors, and  pharmaceutical companies.</td>
+<td>Completed</td>
+</tr>
+</tbody>
+</table>
+<h4 id="upcoming-tasks_3">Upcoming Tasks:</h4>
+<ul>
+<li>Prepare BoM from basic components understanding</li>
+<li>Design reservoirs from calculations made</li>
+<li>Select Suitable database for application to be worked upon</li>
+</ul>
+<h4 id="risks_3">Risks:</h4>
+<ul>
+<li>Design Reservoir from the Medtronics Reservoirs envelope size</li>
+<li>Check for Medical Regulatory's</li>
+</ul>
+<h4 id="key-decisions_3">Key Decisions:</h4>
+<ul>
+<li>Decide on the type of database service to be used</li>
+<li>Prepare BoM from basic Components</li>
+</ul>
+<h2 id="insulin-pump-week-8-till-9032019">Insulin Pump Week-8 (till 9/03/2019)</h2>
+<h4 id="upcoming-tasks_4">Upcoming Tasks:</h4>
+<h4 id="risks_4">Risks:</h4>
+<h4 id="key-decisions_4">Key Decisions:</h4>
+<h2 id="insulin-pump-week-7-till-01032019">Insulin Pump Week-7 (till 01/03/2019)</h2>
+<h4 id="upcoming-tasks_5">Upcoming Tasks:</h4>
+<h4 id="risks_5">Risks:</h4>
+<h4 id="key-decisions_5">Key Decisions:</h4>
+<h2 id="insulin-pump-week-7-till-22022019">Insulin Pump Week-7 (till 22/02/2019)</h2>
+<h4 id="upcoming-tasks_6">Upcoming Tasks:</h4>
+<h4 id="risks_6">Risks:</h4>
+<h4 id="key-decisions_6">Key Decisions:</h4></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
