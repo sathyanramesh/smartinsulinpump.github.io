@@ -4,6 +4,6 @@
 
 It explains what our project is, how we propose it and also on how we worked through it. 
 
-For any quetions, feel free to me through sathyar1999@gmail.com
+For any quetions, feel free to email me through -- sathyar1999@gmail.com
 
 ### Thanks
